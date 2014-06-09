@@ -53,7 +53,7 @@ class apache (
   $log_level            = $::apache::params::log_level,
   $log_formats          = {},
   $ports_file           = $::apache::params::ports_file,
-  $apache_version       = $::apache::params::version,
+  $apache_version       = $::apache::params::apache_version,
   $server_tokens        = 'OS',
   $server_signature     = 'On',
   $trace_enable         = 'On',
