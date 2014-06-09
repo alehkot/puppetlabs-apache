@@ -115,9 +115,10 @@ class apache::params inherits ::apache::version {
     $passenger_conf_package_file = undef
     $passenger_root   = '/usr'
     $passenger_ruby   = '/usr/bin/ruby'
-    $suphp_addhandler  = 'x-httpd-php'
-    $suphp_engine      = 'off'
-    $suphp_configpath  = '/etc/php5/apache2'
+    $suphp_addhandler = 'x-httpd-php'
+    $suphp_engine     = 'off'
+    $suphp_configpath = '/etc/php5/apache2'
+    $apache_version   = '2.4'
     $mod_packages     = {
       'auth_kerb'   => 'libapache2-mod-auth-kerb',
       'dav_svn'     => 'libapache2-svn',
